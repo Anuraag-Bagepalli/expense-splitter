@@ -102,7 +102,7 @@ const LandingPage = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.8 }}
           >
-            <div className="stat-item">
+            {/* <div className="stat-item">
               <h3>50K+</h3>
               <p>Active Users</p>
             </div>
@@ -113,7 +113,7 @@ const LandingPage = () => {
             <div className="stat-item">
               <h3>100K+</h3>
               <p>Groups Created</p>
-            </div>
+            </div> */}
           </motion.div>
         </motion.div>
         
@@ -121,7 +121,7 @@ const LandingPage = () => {
           className="hero-image"
           style={{ y: y2 }}
         >
-          <img src="/dashboard-preview.png" alt="Dashboard Preview" />
+          {/* <img src="" alt="Dashboard Preview" /> */}
         </motion.div>
       </section>
 
